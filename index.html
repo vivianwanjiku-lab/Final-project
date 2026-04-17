@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Scheduler</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class = "nav-container">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#appointments">Appointments</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+    </nav>
+
+     <section id="home" class="home">
+        <div class="container">
+            <div class="home-content">
+                <h1>Book Your <span class="highlight">Healthcare Appointment</span> Instantly</h1>
+                <p>Simple, fast, and secure appointment scheduling system. Connect with top healthcare providers in minutes.</p>
+                <div class="home-buttons">
+                    <a href="#appointments" class="btn btn-primary">Book Now</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>5000+</h3>
+                        <p>Happy Patients</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Doctors</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="appointments" class="appointments">
+            <div class="container">
+                <h2>Book an Appointment now.</h2>
+                <form class="appointment-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="doctor">Select Doctor</label>
+                        <select id="doctor" name="doctor" required>
+                            <option value="">--Select--</option>
+                            <option value="dr-smith">Dr. Smith</option>
+                            <option value="dr-jones">Dr. Jones</option>
+                            <option value="dr-brown">Dr. Brown</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>  
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or need assistance, please feel free to contact us.</p>
+                <ul class="contact-info">
+                    <li><strong>Email:</strong> contact@appointmentscheduler.com</li>
+                    <li><strong>Phone:</strong> (254) 756-7890</li>
+                    <li><strong>Address:</strong> 123 Healthcare Avenue, Medical City</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Appointment Scheduler is a leading platform dedicated to simplifying the process of booking healthcare appointments. Our mission is to connect patients with top healthcare providers quickly and efficiently, ensuring that everyone has access to quality care when they need it.</p>
+                <p>With a user-friendly interface and a wide network of doctors, we strive to make healthcare accessible and convenient for all. Whether you're looking for a routine check-up or specialized care, Appointment Scheduler is here to help you find the right provider and book your appointment with ease.</p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 Appointment Scheduler. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+</html>
