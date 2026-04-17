@@ -13,7 +13,7 @@ A modern, responsive web application that allows patients to book healthcare app
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 
 ## 🌟 Live Demo
-*
+*  https://vivianwanjiku-lab.github.io/Final-project/
 
 
 ##  Overview
